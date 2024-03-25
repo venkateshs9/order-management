@@ -9,4 +9,5 @@ Things you may want to cover:
 * Rails Version --> '7.1.3'
 * Datebase --> PostgreSql
 * Background Jobs --> Sidekiq
+* Frontend Design --> HTML, CSS, Bootstarp
 * ...
