@@ -3,11 +3,11 @@ class User < ApplicationRecord
 
   #=====Associations==================================
 
-  has_many :orders, depedent: :nullify
+  has_many :orders
 
   #=====Validations===================================
 
-  validates :email, presense: true
+  validates :email, presence: true
 
   #=====Callbacks=====================================
 

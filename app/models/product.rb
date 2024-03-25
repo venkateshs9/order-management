@@ -3,11 +3,11 @@ class Product < ApplicationRecord
 
   #=====Associations==================================
 
-  has_many :orders, depedent: :nullify
+  has_many :orders
 
   #=====Validations===================================
 
-  validates :code, :name, presense: true
+  validates :code, :name, presence: true
 
   #=====Callbacks=====================================
 

@@ -65,3 +65,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem 'byebug', '~> 11.1', '>= 11.1.3'
+
+gem 'sidekiq'
+
+gem 'redis', '~> 5.1'
